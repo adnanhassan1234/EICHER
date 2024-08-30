@@ -14,7 +14,7 @@ const MainPage = () => {
       <Gallery />
       <Testimonial />
       <Service />
-      <Enquiry />
+      <Enquiry title="Make An Enquiry" />
     </>
   );
 };

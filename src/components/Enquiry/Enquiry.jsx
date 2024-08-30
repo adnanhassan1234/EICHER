@@ -1,11 +1,11 @@
-const Enquiry = () => {
+const Enquiry = ({title}) => {
   return (
     <section id="enquiry-section" className="d-flex align-items-center">
       <div className="container p-4">
         <div className="row align-items-center justify-content-center">
           <div className="col-12 col-md-12 mb-4 mb-md-0 p-0">
             <div className="p-4">
-              <h4 className="text-center">Make An Enquiry</h4>
+              <h4 className="text-center">{title}</h4>
               <div
                 id="mauticform_wrapper_websitewebsiteforms"
                 className="mauticform_wrapper mt-5"

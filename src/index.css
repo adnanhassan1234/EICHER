@@ -22,7 +22,7 @@ body {
 
 /* Generic for all pages */
 #banner {
-  background-image: url("/assets/img/Banner.svg");
+  background-image: url("https://test3.devarx.org/assets/img/Banner.svg");
   width: 100%;
 }
 
@@ -143,6 +143,9 @@ body {
 .btn-primary {
   background-color: #294785 !important;
   border: none;
+}
+.text-red {
+  color: #d62317 !important;
 }
 
 .image-content {
@@ -345,7 +348,7 @@ footer {
 .footer-section {
   background-image: url("https://test3.devarx.org/assets/img/footer-bg.svg") !important;
 }
-.footer-section input::placeholder{
+.footer-section input::placeholder {
   color: #ccc;
 }
 
@@ -416,8 +419,6 @@ footer {
   .card-pad {
     padding: 10px !important;
   }
-
-
 }
 .lgo_width {
   width: 75%;
@@ -673,4 +674,21 @@ footer {
     display: flex;
     justify-content: flex-start;
   }
+}
+.blog_button {
+  height: 50px;
+}
+/* tabs css ---- */
+#specification-section .nav-link.active {
+  background-color: transparent;
+  color: red;
+}
+#specification-section .nav-link:hover {
+  background-color: transparent;
+  color: red;
+}
+#specification-section .table thead th{
+  background-color: #E33239 !important;
+  color: white;
+  font-weight: normal;
 }
